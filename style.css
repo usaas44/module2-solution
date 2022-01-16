@@ -1,4 +1,21 @@
-h1{
-    color: brown;
-    background-color: rgb(10, 231, 102);
+. {
+    box-sizing: border-box;
+}
+div.chicken {
+    float: left;
+    width: 30%;
+    border: 2px solid;
+    background-color: chartreuse;
+}
+div.beef {
+    float: left;
+    width: 30%;
+    border: 2px solid;
+    background-color: cyan;
+}
+div.sushi {
+    float: left;
+    width: 30%;
+    border: 2px solid;
+    background-color: darkorange;
 }
