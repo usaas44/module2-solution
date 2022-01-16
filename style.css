@@ -1,8 +1,13 @@
 . {
     box-sizing: border-box;
 }
+.menu {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
 div {
-    margin-top: 15px;
+    margin-top: 10px;
     
 }
 div.chicken {
@@ -30,10 +35,12 @@ div.sushi {
 p {
     margin-top: 0;
     width: 30%;
-    margin-right: 0;
+    margin-left: auto;
     border: 2px solid;
     border-top: 0;
     border-right: 0;
+    text-align: center;
+    font-weight: bolder;
    
 }
 p.chicken {
@@ -41,6 +48,7 @@ p.chicken {
 }
 p.beef {
     background-color: darkorange;
+    color: white;
 }
 p.sushi {
     background-color: chartreuse;
