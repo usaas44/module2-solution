@@ -1,21 +1,47 @@
 . {
     box-sizing: border-box;
 }
+div {
+    margin-top: 15px;
+    
+}
 div.chicken {
     float: left;
     width: 30%;
     border: 2px solid;
     background-color: chartreuse;
+    margin-right: 15px;
 }
 div.beef {
     float: left;
     width: 30%;
     border: 2px solid;
     background-color: cyan;
+    margin-right: 15px;
 }
+
+
 div.sushi {
     float: left;
     width: 30%;
     border: 2px solid;
     background-color: darkorange;
+}
+p {
+    margin-top: 0;
+    width: 30%;
+    margin-right: 0;
+    border: 2px solid;
+    border-top: 0;
+    border-right: 0;
+   
+}
+p.chicken {
+    background-color: cyan;
+}
+p.beef {
+    background-color: darkorange;
+}
+p.sushi {
+    background-color: chartreuse;
 }
